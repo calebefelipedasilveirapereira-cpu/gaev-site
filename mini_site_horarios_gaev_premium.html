@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GAEV - Compra de Ouro e Antiguidades</title>
+
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
+
+    body {
+      /* COLOQUE A IMAGEM DO CARTÃO AQUI */
+      background: 
+        linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+        url("https://images.unsplash.com/photo-1610375461246-83df859d849d?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8b3Vyb3xlbnwwfHwwfHx8MA%3D%3D");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      color: #fff;
+      display:flex; justify-content:center; align-items:center;
+      min-height:100vh; padding:20px;
+    }
+
+    .card {
+      background: rgba(0,0,0,0.75);
+      backdrop-filter: blur(8px);
+      border-radius:20px;
+      padding:30px;
+      max-width:420px;
+      width:100%;
+      text-align:center;
+      box-shadow:0 10px 30px rgba(0,0,0,0.7);
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-size:28px;
+      margin-bottom:10px;
+      color:#f5c16c;
+    }
+
+    h2 {
+      font-size:16px;
+      font-weight:normal;
+      margin-bottom:20px;
+      color:#ddd;
+    }
+
+    .servicos {
+      font-size:14px;
+      margin-bottom:20px;
+      line-height:1.5;
+      color:#bbb;
+    }
+
+    .horario { margin:15px 0; font-size:15px; }
+    .ok { color:#00ff88; font-weight:bold; }
+    .off { color:#ff4d4d; font-weight:bold; }
+
+    .btn {
+      display:inline-block;
+      margin-top:20px;
+      padding:12px 20px;
+      background:#00ff88;
+      color:#000;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover { background:#00cc6a; transform:scale(1.05); }
+
+    .footer {
+      margin-top:20px;
+      font-size:13px;
+      color:#aaa;
+    }
+
+    @keyframes fadeIn {
+      from { opacity:0; transform:translateY(20px); }
+      to { opacity:1; transform:translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card">
+
+    <h1>GAEV</h1>
+    <h2>Compro Ouro e Antiguidades em Geral</h2>
+
+    <div class="servicos">
+      Ouro, prata, antiguidades, talheres,<br>
+      relógios, facas, bombas de chimarrão<br>
+      e cuias com adornos em prata.
+    </div>
+
+    <div class="horario">
+      📅 Segunda a Sexta <br>
+      <span class="ok">09:00 – 18:00</span>
+    </div>
+
+    <div class="horario">
+      📅 Sábado <br>
+      <span class="ok">09:00 – 13:00</span>
+    </div>
+
+    <div class="horario">
+      📅 Domingo <br>
+      <span class="off">Fechado</span>
+    </div>
+
+    <a class="btn" href="https://wa.me/5551996540438" target="_blank">
+      📲 Falar com Edenilson
+    </a>
+
+    <div class="footer">
+      📍 Rua Independência, 868 - Sala 2<br>
+      São Leopoldo - RS
+    </div>
+
+  </div>
+</body>
+</html>
